@@ -1,0 +1,319 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap");
+
+/* Universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Logo + Title */
+.navbar-brand h3 {
+  font-weight: 600; /* SemiBold */
+  font-size: 18.6px;
+  line-height: 100%;
+  color: #1a1a1a;
+  margin-bottom: 0;
+}
+
+/* Navbar link styling */
+.nav-link {
+  font-weight: 500;
+  font-size: 14.8px;
+  color: #333333;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00aeef; /* Optional blue hover color */
+}
+
+/* Dropdown */
+.dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive fix */
+@media (max-width: 991px) {
+  .nav-link {
+    margin-left: 0;
+    padding: 10px 15px;
+  }
+
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+}
+
+.img {
+  width: 205.38888549804688;
+  height: 29.77777862548828;
+  gap: 7.44px;
+  angle: 0 deg;
+  opacity: 1;
+  padding-top: 9.31px;
+  padding-right: 14.89px;
+  padding-bottom: 9.31px;
+  padding-left: 3.72px;
+  border-radius: 93.06px;
+  border-width: 0.93px;
+}
+.h2 {
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 59.56px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  width: 592.763916015625;
+  height: 213;
+  angle: 0 deg;
+  opacity: 1;
+  color: #101918;
+}
+.p1 {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16.75px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+  width: 592.763916015625;
+  height: 81;
+  angle: 0 deg;
+  opacity: 1;
+  color: #5f6564;
+}
+.Get {
+  width: 134.55555725097656;
+  height: 52.111114501953125;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 7.44px;
+  padding-top: 11.17px;
+  padding-right: 29.78px;
+  padding-bottom: 11.17px;
+  padding-left: 29.78px;
+  border-radius: 7.44px;
+  background: #017d6e;
+  color: #ffffff;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 13.03px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  box-shadow: 0px -0.47px 0.93px 0px #0000000d;
+
+  box-shadow: 0px -0.47px 0.93px 0px #00000033;
+}
+
+.Larn{
+  width: 129.55555725097656;
+height: 52.111114501953125;
+angle: 0 deg;
+opacity: 1;
+gap: 7.44px;
+padding-top: 11.17px;
+padding-right: 29.78px;
+padding-bottom: 11.17px;
+padding-left: 29.78px;
+border-radius: 7.44px;
+border-width: 0.93px;
+background: #F9FAFA;
+border: 0.93px solid #91959526
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.03px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+color: #101918;
+
+}
+ .g{
+  width: 288.47222900390625;
+height: 512.736083984375;
+angle: 0 deg;
+opacity: 1;
+top: 0px;
+left: 209.38px;
+
+ }
+
+ .medi{
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18.61px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+ }
+ .p1{
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 59.56px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+color: #101918;
+width: 592.763916015625;
+height: 213;
+angle: 0 deg;
+opacity: 1;
+
+ }
+ .hero1{
+  width: 1340;
+height: 549.0277709960938;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-right: 59.56px;
+padding-left: 59.56px;
+
+ }
+ .b2{
+  width: 134.55555725097656;
+height: 52.111114501953125;
+gap: 7.44px;
+angle: 0 deg;
+opacity: 1;
+padding-top: 11.17px;
+padding-right: 29.78px;
+padding-bottom: 11.17px;
+padding-left: 29.78px;
+border-radius: 7.44px;
+Size="Large";
+Type="Primary";
+Text="Get Started";
+background: #017D6E;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.03px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+width: 75;
+height: 21;
+angle: 0 deg;
+opacity: 1;
+
+ }
+ .b3{
+  width: 129.55555725097656;
+height: 52.111114501953125;
+gap: 7.44px;
+angle: 0 deg;
+opacity: 1;
+padding-top: 11.17px;
+padding-right: 29.78px;
+padding-bottom: 11.17px;
+padding-left: 29.78px;
+border-radius: 7.44px;
+border-width: 0.93px;
+background: #F9FAFA;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.03px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+width: 70;
+height: 21;
+angle: 0 deg;
+opacity: 1;
+
+ }
+ .b4{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16.75px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+color: #5F6564;
+width: 592.763916015625;
+height: 81;
+angle: 0 deg;
+opacity: 1;
+
+ }
+ .b5{
+  width: 1340;
+height: 495.1111145019531;
+gap: 59.56px;
+angle: 0 deg;
+opacity: 1;
+padding-right: 59.56px;
+padding-left: 59.56px;
+
+ }
+ .b6{
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 44.67px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+color: #101918;
+width: 1220.888916015625;
+height: 126;
+angle: 0 deg;
+opacity: 1;
+
+
+ }
+ .b7{
+  width: 1340;
+height: 558.3333129882812;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-right: 59.56px;
+padding-left: 59.56px;
+
+ }
+ .b8{
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 44.67px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+color: #101219;
+width: 575.0833129882812;
+height: 126;
+angle: 0 deg;
+opacity: 1;
+
+ }

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medi Bridge</title>
+    <!--font tag-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <img src="./image/Logo.png" alt="Logo" width="30" height="30" />
+          <h5 class="mb-0 medi">Medi Bridge</h5>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Features</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                <li><a class="dropdown-item" href="#">Feature 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Find Doctor</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+          <div class="d-flex ms-3 gap-2">
+            <button class="btn btn-outline-dark">Log In</button>
+            <button class="btn btn-success">Register</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="container py-5 hero1">
+      <div class="row align-items-center justify-content-between">
+        <!-- Left Side Text -->
+        <div class="col-md-6">
+          <h2 class="fw-bold p1">Transforming Healthcare for a Better Tomorrow</h2>
+          <p class="text-muted b4">
+            With a focus on innovation, compassion, and personalized care, we
+            are committed to guiding you towards a healthier and more vibrant
+            tomorrow.
+          </p>
+          <button class="btn btn-success me-2 b2">Get Started</button>
+          <button class="btn btn-outline-secondary b3">Learn More</button>
+        </div>
+
+        <!-- Right Side Image and Cards -->
+        <div class="col-md-6 position-relative text-center mt-4 mt-md-0">
+          <!-- Main Doctor Image -->
+          <img src="./image/Image Group.png" alt="Doctor" class="img-fluid" />
+
+          <!-- Doctor Info Card -->
+          <div
+            class="position-absolute top-50 start-0 translate-middle-y"
+            style="width: 280px"
+          >
+            <div
+              class="card shadow-sm rounded-4 border border-info p-3"
+              style="max-width: 540px"
+            >
+              <div
+                class="d-flex flex-row align-items-center justify-content-between"
+              >
+                <img
+                  src="./image/card pic 1.png"
+                  class="img-fluid rounded-4"
+                  alt="sister"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                />
+                <div class="ms-3 flex-grow-1">
+                  <span class="badge bg-info text-dark mb-2">Available</span>
+                  <h5 class="card-title mb-1 fw-bold">Dr. Andrea G.</h5>
+                  <p class="card-text mb-1 text-muted">Cardiologist</p>
+                  <p class="card-text">
+                    <span class="text-success fw-bold">$55</span>
+                    <small>/session</small>
+                  </p>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="btn btn-outline-success d-flex align-items-center gap-2 mt-3"
+              >
+                <i class="bi bi-telephone-fill"></i> Book Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Quote Box -->
+          <div class="position-absolute bottom-0 end-0" style="width: 280px">
+            <div
+              class="card shadow-sm rounded-4 border border-primary px-4 py-3"
+              style="max-width: 320px"
+            >
+              <i class="bi bi-chat-quote-fill fs-2 text-primary mb-3"></i>
+              <p class="text-muted mb-3">
+                "The workshops were insightful, the networking opportunities
+                were abundant."
+              </p>
+              <h6 class="fw-bold mb-0">Michael Angelo</h6>
+              <small class="text-muted">39 years old</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Icon -->
+    <div>
+      <div><h3 class="text-center">Trusted by</h3></div>
+      <div>
+        <img src="./image/Partner Logo.png" alt="logo" />
+      </div>
+    </div>
+
+    <!--2nd Page-->
+    <section class="py-5 bg-light b5">
+      <div class="container text-center">
+        <div>
+          <h2 class="mb-4 b6">
+            Experience the Difference in Our Healthcare Approach
+          </h2>
+          <p class="mb-5 ">
+            Transform your healthcare journey with our innovative and
+            personalized approach
+          </p>
+        </div>
+
+        <!--Card-->
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card border-0 shadow h-100 test-center p-3">
+              <i class="bi bi-heart-pulse"></i>
+              <div class="card-body">
+                <h5 class="card-title">Expert Care</h5>
+                <p class="card-text">
+                  Our team of experienced healthcare professionals is dedicated
+                  to providing the highest quality.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow h-100 test-center p-3">
+              <i class="bi bi-person-lines-fill"></i>
+              <div class="card-body">
+                <h5 class="card-title">Personalized Approach</h5>
+                <p class="card-text">
+                  We understand that every patient is unique, which is why we
+                  tailor our services to meet your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow h-100 test-center p-3">
+              <i class="bi bi-leaf-fill"></i>
+              <div class="card-body">
+                <h5 class="card-title">Focus on Wellness</h5>
+                <p class="card-text">
+                  Beyond treating illness, we emphasize preventive care and
+                  wellness promotion.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow h-100 test-center p-3">
+              <i class="bi bi-people-fill"></i>
+              <div class="card-body">
+                <h5 class="card-title">Community Connection</h5>
+                <p class="card-text">
+                  We are deeply rooted in the local community and are committed
+                  to serving and giving back.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--3rd page-->
+    <section class="py-5 bg-light b7">
+      <div class="container">
+        <div class="row align-items-center gx-5">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="./image/Content.png" alt="two" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-3 fw-bold b8">
+              Unveiling a Spectrum of Specialized Offerings
+            </h2>
+            <p class="mb-4 text-muted">
+              Discover a tailored approach to your health with our versatile
+              range of specialized services, ensuring every aspect of your
+              healthcare journey is seamlessly addressed.
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div
+                  class="d-flex align-items-start bg-light rounded p-3 shadow-sm gap-3"
+                >
+                  <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
+                  <span class="fw-medium">Diagnostic Imaging</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex align-items-start bg-light rounded p-3 shadow-sm gap-3"
+                >
+                  <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
+                  <span class="fw-medium">Mental Health Services</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex align-items-start bg-light rounded p-3 shadow-sm gap-3"
+                >
+                  <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
+                  <span class="fw-medium">Laboratory Services</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex align-items-start bg-light rounded p-3 shadow-sm gap-3"
+                >
+                  <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
+                  <span class="fw-medium">Rehabilitation Services</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex align-items-start bg-light rounded p-3 shadow-sm gap-3"
+                >
+                  <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
+                  <span class="fw-medium">Home Healthcare</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex align-items-start bg-light rounded p-3 shadow-sm gap-3"
+                >
+                  <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
+                  <span class="fw-medium">Geriatric Care</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--4th page-->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Meet the Healthcare Heroes Ready to Serve You</h2>
+          <p>
+            Discover the dedicated professionals behind our exceptional care
+            just for you
+          </p>
+        </div>
+
+        <!--card-->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="./image/Avatar.png"
+                class="card-img-top rounded-top"
+                alt="card-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-1 fw-semibold">Dr. Harry Marcelo</h5>
+                <p class="card-text mb-1 text-muted small">Endocrinologist</p>
+                <p class="card-text">
+                  <span class="text-success fw-bold">$64</span>
+                  <small>/session</small>
+                </p>
+              </div>
+              <a
+                href="#"
+                class="btn btn-outline-success d-flex justify-content-center align-items-center gap-2 mt-3 w-100"
+              >
+                <i class="bi bi-telephone-fill"></i> Book Now
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="./image/Avatar (2).png"
+                class="card-img-top rounded-top"
+                alt="card-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-1 fw-bold">Dr. Putri Raviola</h5>
+                <p class="card-text mb-1 text-muted">Cardiologist</p>
+                <p class="card-text">
+                  <span class="text-success fw-bold">$72</span>
+                  <small>/session</small>
+                </p>
+              </div>
+              <a
+                href="#"
+                class="btn btn-outline-success d-flex justify-content-center align-items-center gap-2 mt-3 w-100"
+              >
+                <i class="bi bi-telephone-fill"></i> Book Now
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="./image/Avatar (3).png"
+                class="card-img-top rounded-top"
+                alt="card-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-1 fw-bold">Dr. Niky Jeremiah</h5>
+                <p class="card-text mb-1 text-muted">Dermatologist</p>
+                <p class="card-text">
+                  <span class="text-success fw-bold">$88</span>
+                  <small>/session</small>
+                </p>
+              </div>
+              <a
+                href="#"
+                class="btn btn-outline-success d-flex justify-content-center align-items-center gap-2 mt-3 w-100"
+              >
+                <i class="bi bi-telephone-fill"></i> Book Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--5th page-->
+
+    <section class="container py-5">
+      <div class="text-center mb-4">
+        <div>
+          <h3>See What Our Patients Have to Say</h3>
+          <p>Discover firsthand accounts of our patients' experiences</p>
+        </div>
+        <!--Card 1-->
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  "Medi Bridge has been a true lifesaver for me and my family.
+                  When my father fell ill, we turned to them for help, and they
+                  exceeded our expectations in every way."
+                </p>
+              </div>
+              <div class="d-flex align-items-center gap-3 px-3 pb-3">
+                <img
+                  src="./image/Avatar 4.png"
+                  alt="Mecci"
+                  class="rounded-circle"
+                  width="40"
+                  height="40"
+                />
+
+                <h6 class="mb-0 fw-semibold">Mecca Rachel</h6>
+                <br />
+                <small class="text-muted">24 Years old </small>
+              </div>
+            </div>
+          </div>
+          <!--card-2-->
+          <div class="col-md-4">
+            <div class="card text-bg-dark">
+              <img
+                src="./image/Testimonial Card.png"
+                class="card-img"
+                alt="card+"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+              </div>
+            </div>
+          </div>
+
+          <!--card-3-->
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  "I've been a patient at Medi Bridge for years, and they
+                  consistently deliver outstanding care. Their dedication to
+                  patient well-being is evident in every interaction."
+                </p>
+              </div>
+              <div class="d-flex align-items-center gap-3 px-3 pb-3">
+                <img
+                  src="./image/Avatar (1).png"
+                  alt="Mecci"
+                  class="rounded-circle"
+                  width="40"
+                  height="40"
+                />
+                <h6 class="mb-0 fw-semibold">Adam ackson</h6>
+                <small class="text-muted">24 Years old </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--6th page-->
+
+    <section>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <h2 class="fw-semibold">
+                Frequently <br />
+                Asked Questions
+              </h2>
+              <p class="text-muted">
+                Still have something to ask? Contact our sales team
+              </p>
+              <button class="btn btn-outline-secondary">Contact Us</button>
+            </div>
+            <div class="col-md-7">
+              <div class="accordion" id="faqAccordion">
+                <!-- FAQ 1 -->
+                <div class="accordion-item border rounded mb-2">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button bg-success text-white fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                    >
+                      How do I schedule an appointment?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      Scheduling an appointment at Medi Bridge is easy. You can
+                      call our office directly or use our online appointment
+                      booking system on our website. Simply select your
+                      preferred date and time, and our staff will confirm your
+                      appointment promptly.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item border rounded mb-2">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                    >
+                      What types of healthcare services does we offer?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      We offer a wide range of healthcare services including
+                      general medicine, specialist consultations, diagnostics,
+                      and preventive care.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item border rounded mb-2">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                    >
+                      Are walk-in appointments available?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      Yes, walk-in appointments are available during regular
+                      hours, subject to doctor availability.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item border rounded mb-2">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                    >
+                      Does Medi Bridge accept insurance plans?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      Yes, we accept most major insurance plans. Please check
+                      with our front desk or website for the list of supported
+                      providers.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item border rounded">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                    >
+                      What safety measures does Medi Bridge have?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      We follow strict hygiene and safety protocols including
+                      sanitization, mask requirements, and social distancing to
+                      ensure patient well-being.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--7th page-->
+    <section class=" container-fluid bg-success text-white text-center py-5 position-relative" style="overflow: hidden;">
+  <!-- Left Leaf Shape -->
+  <div class="position-absolute top-0 start-0" style="width: 150px; height: 150px; background: rgba(255,255,255,0.1); border-bottom-right-radius: 100%;"></div>
+
+  <!-- Right Leaf Shape -->
+  <div class="position-absolute bottom-0 end-0" style="width: 180px; height: 180px; background: rgba(255,255,255,0.1); border-top-left-radius: 100%;"></div>
+
+  <div class="container position-relative">
+    <h1 class="fw-bold">Discover Comprehensive <br> Care Tailored to Your Needs</h1>
+    <p class="mt-3 mb-4">Experience personalized healthcare solutions designed to prioritize your well-being</p>
+    <a href="#" class="btn btn-light text-dark fw-medium">Make an Appointment</a>
+  </div>
+</section>
+
+<!--8th page-->
+
+<!-- Footer Section -->
+<footer class="bg-white text-dark pt-5 pb-4 border-top">
+  <div class="container">
+    <div class="row">
+      <!-- Logo and Tagline -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">
+          <img src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png" alt="Logo" width="30" class="me-2">
+          Medi Bridge
+        </h5>
+        <p class="text-muted">Empowering Health, Inspiring Lives.</p>
+      </div>
+
+      <!-- Company -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-semibold mb-3">Company</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-dark">About Us</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Careers</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Doctors</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-semibold mb-3">Services</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-dark">Clinics</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Healthcare</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Training Center</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Online Consultation</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-semibold mb-3">Social Media</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-dark">Instagram</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Facebook</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">Twitter</a></li>
+          <li><a href="#" class="text-decoration-none text-dark">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--9th-->
+<div class="bg-white border-top py-3">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <p class="mb-0 text-muted">&copy; Copyright MediBridge 2024</p>
+    <ul class="list-inline mb-0">
+      <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">FAQ</a></li>
+      <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">Terms of Condition</a></li>
+      <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+      <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">Changelog</a></li>
+    </ul>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
